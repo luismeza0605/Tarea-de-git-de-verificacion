@@ -6,3 +6,5 @@ def validar_contraseña(contraseña)
     puts "Contraseña insegura: #{contraseña}"
   end
 end
+validar_contraseña("Contra$123")
+validar_contraseña("12345")
